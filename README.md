@@ -5,8 +5,9 @@ Library-Management-System is an application that simulates what you would see in
 This Graphical User Interface Library Management System application is written in java and MySql. Library Management System application 
 utilizes a local database created with MySql command line. The local database was populated with a csv file available at 
 'https://data.world/divyanshj/users-books-dataset/workspace/file?filename=BX-Books.csv' and with help of a third library party called 
-`rs2xml.jar` a table was populated in the application with all the database information.
-
+`rs2xml.jar` a table was populated in the application with all the database information. Anyone can use the application to search for a book in the
+database, but only administrators which log in into the system are able to add / remove users as normal or admin users, and add / remove books from 
+the database through the application. Some Junit tests were written to test functions of the application.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
